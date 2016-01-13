@@ -2,7 +2,7 @@
 // If you want to ignore the uploaded files,
 // set $demo_mode to true;
 
-$upload_dir = '/content/new/';
+$upload_dir = 'content/';
 $allowed_ext = array('jpg','jpeg','png','gif', '.tiff', '.cr2');
 
 if(strtolower($_SERVER['REQUEST_METHOD']) != 'post'){
